@@ -1,0 +1,86 @@
+# Environments
+.venv/
+backend/.venv/
+venv/
+env/
+ENV/
+.uv/
+
+# Secrets & Local Configurations
+.env
+.env.*
+.env.local
+!.env.example
+
+# Sensitive Data & Local Subscriber Store
+backend/app/data/whatsapp_subscribers.json
+*.pem
+*.key
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+/lib/
+/lib64/
+!frontend/src/lib/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.ruff_cache/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Data & Database Artifacts
+data/raw/
+data/processed/
+*.parquet
+*.sqlite3
+*.db
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Frontend & Node
+node_modules/
+frontend/node_modules/
+.npm-cache/
+.next/
+frontend/.next/
+out/
+frontend/out/
+*.tsbuildinfo
+next-env.d.ts
+powershell.cmd
+*.log
+
+# Git & Agent Scratch
+.git_repo/
+scratch/
+
